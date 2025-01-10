@@ -1,0 +1,34 @@
+{
+  "schemes" : [
+    {
+      "if" : {
+        "device" : {
+          "productName" : "MX Master 3S M",
+          "vendorID" : "0x46d",
+          "productID" : "0xb034",
+          "serialNumber" : "A71E1411",
+          "category" : "mouse"
+        }
+      },
+      "pointer" : {
+        "disableAcceleration" : false
+      }
+    },
+    {
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        }
+      },
+      "if" : {
+        "device" : {
+          "vendorID" : "0x46d",
+          "productName" : "USB Receiver",
+          "category" : "mouse",
+          "productID" : "0xc547"
+        }
+      }
+    }
+  ],
+  "$schema" : "https:\/\/schema.linearmouse.app\/0.10.0"
+}

@@ -1,0 +1,13 @@
+color = ''
+project-name = 'default'
+[default]
+account_id = 'acct_1MTinlC3RUd61rif'
+device_name = 'adrianos-MacBook-Pro.local'
+display_name = 'resleeve.ai'
+live_mode_api_key = 'rk_live_***********************************************************************************************qW3I'
+live_mode_key_expires_at = '2025-02-24'
+live_mode_pub_key = 'pk_live_51MTinlC3RUd61rifH36rzDiOa9Yj5czlPE4QgBwB0xFkc7HJTQn7XpOW97z2gDr4SDsgni7VFGHzFzEC4umI5TTL00f2Lqt9eY'
+test_mode_api_key = 'rk_test_51MTinlC3RUd61rifwnGF32Td6jHBZx6gjQPo52gxPjTVtmxxb0GGZw5TSktDpUzDO03bAx9vwCHASSojWIepxTxZ00I2PzFmAg'
+test_mode_key_expires_at = '2025-02-24'
+test_mode_pub_key = 'pk_test_51MTinlC3RUd61rifkXzdOY8ctyEyhVx0hlIREomJgNmzXx77ekVGi2ol4pJuTI5CZF0DwqMuLncR23Nxg1Gd24Hx00jajHyehM'
+
