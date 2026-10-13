@@ -1,0 +1,198 @@
+notify = ["/Users/adrianomolin/.codex/computer-use/Codex Computer Use.app/Contents/SharedSupport/SkyComputerUseClient.app/Contents/MacOS/SkyComputerUseClient", "turn-ended"]
+model = "gpt-6.1-sol"
+model_reasoning_effort = "xhigh"
+service_tier = "default"
+
+[marketplaces.openai-bundled]
+source_type = "local"
+source = "/Users/adrianomolin/.codex/.tmp/bundled-marketplaces/openai-bundled"
+
+[marketplaces.openai-primary-runtime]
+source_type = "local"
+source = "/Users/adrianomolin/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime"
+
+[plugins."codex-app-tools@openai-bundled"]
+enabled = true
+
+[plugins."browser@openai-bundled"]
+enabled = true
+
+[plugins."visualize@openai-bundled"]
+enabled = true
+
+[plugins."documents@openai-primary-runtime"]
+enabled = true
+
+[plugins."pdf@openai-primary-runtime"]
+enabled = true
+
+[plugins."spreadsheets@openai-primary-runtime"]
+enabled = true
+
+[plugins."presentations@openai-primary-runtime"]
+enabled = true
+
+[plugins."template-creator@openai-primary-runtime"]
+enabled = true
+
+[plugins."computer-use@openai-bundled"]
+enabled = true
+
+[plugins."unified-computer-use@openai-bundled"]
+enabled = true
+
+[plugins."code-review@openai-bundled"]
+enabled = true
+
+[features]
+js_repl = false
+
+[mcp_servers.node_repl]
+args = []
+command = "/Applications/ChatGPT.app/Contents/Resources/cua_node/bin/node_repl"
+startup_timeout_sec = 120
+
+[mcp_servers.node_repl.env]
+NODE_REPL_NATIVE_PIPE_CONNECT_TIMEOUT_MS = "1000"
+NODE_REPL_NODE_MODULE_DIRS = "/Applications/ChatGPT.app/Contents/Resources/cua_node/lib/node_modules"
+NODE_REPL_NODE_PATH = "/Applications/ChatGPT.app/Contents/Resources/cua_node/bin/node"
+NODE_REPL_TRUSTED_CODE_PATHS = "/Users/adrianomolin/.codex:/Applications/ChatGPT.app/Contents/Resources/cua_node/lib/node_modules"
+CODEX_HOME = "/Users/adrianomolin/.codex"
+BROWSER_USE_AVAILABLE_BACKENDS = "chrome,iab,mcpapps"
+BROWSER_USE_TINYSKY_ENABLED = "1"
+NODE_REPL_INSTRUCTIONS_USE_CASE_BROWSER = ""
+NODE_REPL_INSTRUCTIONS_USE_CASE_CHROME = ""
+NODE_REPL_INSTRUCTIONS_USE_CASE_COMPUTER_USE = ""
+BROWSER_USE_CODEX_APP_BUILD_FLAVOR = "prod"
+BROWSER_USE_CODEX_APP_VERSION = "26.1007.30912"
+NODE_REPL_TRUSTED_SERVICES = '{"browser":"/Users/adrianomolin/.codex/plugins/cache/openai-bundled/browser/26.1007.30912/scripts/browser-service.mjs","sky":"@oai/sky/service"}'
+SKY_CUA_SERVICE_PATH = "/Users/adrianomolin/.codex/computer-use/Codex Computer Use.app"
+CODEX_CLI_PATH = "/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS/codex"
+
+[mcp_servers.computer-use]
+command = "./Codex Computer Use.app/Contents/SharedSupport/SkyComputerUseClient.app/Contents/MacOS/SkyComputerUseClient"
+args = ["mcp"]
+cwd = "."
+enabled = false
+
+[desktop]
+dock-icon-preference = "app-default"
+followUpQueueMode = "queue"
+conversationDetailMode = "STEPS_COMMANDS"
+selected-avatar-id = "pet_6abd17abcd308191bfdb0e889f48f362"
+avatar-overlay-mascot-width-px = 130
+keepRemoteControlAwakeWhilePluggedIn = true
+appearanceTheme = "dark"
+appearanceLightCodeThemeId = "catppuccin"
+appearanceDarkCodeThemeId = "codex"
+reduced-motion-preference = "off"
+appearanceDiffMarkerStyle = "color"
+
+[desktop.appearanceLightChromeTheme]
+accent = "#8839ef"
+accentSource = "custom"
+contrast = 45
+ink = "#4c4f69"
+opaqueWindows = false
+surface = "#eff1f5"
+
+[desktop.appearanceLightChromeTheme.fonts]
+
+[desktop.appearanceLightChromeTheme.semanticColors]
+diffAdded = "#40a02b"
+diffRemoved = "#d20f39"
+skill = "#8839ef"
+
+[desktop.appearanceDarkChromeTheme]
+accent = "#0169cc"
+accentSource = "chatgpt"
+contrast = 60
+ink = "#fcfcfc"
+opaqueWindows = false
+surface = "#111111"
+
+[desktop.appearanceDarkChromeTheme.fonts]
+
+[desktop.appearanceDarkChromeTheme.semanticColors]
+diffAdded = "#00a240"
+diffRemoved = "#e02e2a"
+skill = "#b06dff"
+
+[projects."/Users/adrianomolin/Documents/Codex/2026-08-27/hatch-pet-users-adrianomolin-codex-skills"]
+trust_level = "trusted"
+
+[projects."/Users/adrianomolin/Documents/Codex/2026-08-27/hatch-pet-users-adrianomolin-codex-skills-2"]
+trust_level = "trusted"
+
+[projects."/Users/adrianomolin/Documents/Codex/2026-08-27/hatch-pet-users-adrianomolin-codex-skills-3"]
+trust_level = "trusted"
+
+[projects."/Users/adrianomolin/Documents/Codex/2026-08-27/hatch-pet-users-adrianomolin-codex-skills-4"]
+trust_level = "trusted"
+
+[projects."/Users/adrianomolin/Documents/Codex/2026-08-27/ple"]
+trust_level = "trusted"
+
+[projects."/Users/adrianomolin/Documents/Codex/2026-08-27/attention-turborepo-now-collects-completely-anonymous"]
+trust_level = "trusted"
+
+[projects."/Users/adrianomolin/Documents/Codex/2026-08-27/hatch-pet-users-adrianomolin-codex-skills-5"]
+trust_level = "trusted"
+
+[projects."/Users/adrianomolin/Documents/Codex/2026-08-27/hatch-pet-users-adrianomolin-codex-skills-6"]
+trust_level = "trusted"
+
+[projects."/Users/adrianomolin/Documents/Codex/2026-08-27/blind-direction-qa"]
+trust_level = "trusted"
+
+[projects."/Users/adrianomolin/Documents/Codex/2026-08-27/blind-gaze-qa"]
+trust_level = "trusted"
+
+[projects."/Users/adrianomolin/Documents/Codex/2026-08-27/blind-qa-child"]
+trust_level = "trusted"
+
+[projects."/Users/adrianomolin/Documents/Codex/2026-08-27/blind-direction-qa-2"]
+trust_level = "trusted"
+
+[projects."/Users/adrianomolin/Documents/Codex/2026-08-27/blind-gaze-qa-2"]
+trust_level = "trusted"
+
+[projects."/Users/adrianomolin/Documents/Codex/2026-08-27/blind-qa-child-2"]
+trust_level = "trusted"
+
+[projects."/Users/adrianomolin/Documents/Codex/2026-08-27/realtime-voice-chat"]
+trust_level = "trusted"
+
+[projects."/Users/adrianomolin/Documents/Codex/2026-08-27/realtime-voice-chat-2"]
+trust_level = "trusted"
+
+[projects."/Users/adrianomolin/Desktop/dev/keptd/app"]
+trust_level = "trusted"
+
+[projects."/Users/adrianomolin/Documents/Codex/2026-08-31/we-had-too-many-database-connections"]
+trust_level = "trusted"
+
+[projects."/Users/adrianomolin/Documents/Codex/2026-09-07/why-is-duplicating-connections-in-payroll"]
+trust_level = "trusted"
+
+[projects."/Users/adrianomolin/Documents/Codex/2026-09-07/now-we-filter-to-only-send"]
+trust_level = "trusted"
+
+[projects."/Users/adrianomolin/Desktop/dev/rentnbuy/direct-proprietar"]
+trust_level = "trusted"
+
+[projects."/Users/adrianomolin/Desktop/dev/emailchaser"]
+trust_level = "trusted"
+
+[projects."/Users/adrianomolin/Desktop/dev/resleeve"]
+trust_level = "trusted"
+
+[projects."/Users/adrianomolin/Documents/Codex/2026-09-21/referenced-chatgpt-conversation-this-is-an"]
+trust_level = "trusted"
+
+[projects."/Users/adrianomolin/Desktop/dev/keptd/director-payroll-api"]
+trust_level = "trusted"
+
+[[skills.config]]
+path = "/Users/adrianomolin/.codex/skills/hatch-pet/SKILL.md"
+enabled = false

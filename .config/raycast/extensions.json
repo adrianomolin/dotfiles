@@ -1,0 +1,54 @@
+{
+  "extensions": [
+    {
+      "name": "1password",
+      "title": "1Password",
+      "author": "khasbilegt"
+    },
+    {
+      "name": "brew",
+      "title": "Brew",
+      "author": "nhojb"
+    },
+    {
+      "name": "chatgpt",
+      "title": "ChatGPT",
+      "author": "abielzulio"
+    },
+    {
+      "name": "claude",
+      "title": "Claude",
+      "author": "florisdobber"
+    },
+    {
+      "name": "color-picker",
+      "title": "Color Picker",
+      "author": "thomas"
+    },
+    {
+      "name": "cursor-recent-projects",
+      "title": "Cursor",
+      "author": "degouville"
+    },
+    {
+      "name": "json-format",
+      "title": "Format JSON",
+      "author": "destiner"
+    },
+    {
+      "name": "jwt-decoder",
+      "title": "JWT Decoder",
+      "author": "gdsmith"
+    },
+    {
+      "name": "slack",
+      "title": "Slack",
+      "author": "mommertf"
+    },
+    {
+      "name": "spotify-player",
+      "title": "Spotify Player",
+      "author": "mattisssa"
+    }
+  ]
+}
