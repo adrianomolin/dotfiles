@@ -1,0 +1,18 @@
+{
+  "enabledPlugins": {
+    "figma@claude-plugins-official": true,
+    "interface-design@interface-design": true
+  },
+  "extraKnownMarketplaces": {
+    "interface-design": {
+      "source": {
+        "source": "github",
+        "repo": "Dammyjay93/interface-design"
+      }
+    }
+  },
+  "effortLevel": "xhigh",
+  "skipWorkflowUsageWarning": true,
+  "agentPushNotifEnabled": true,
+  "tui": "fullscreen"
+}

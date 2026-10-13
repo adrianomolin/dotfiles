@@ -1,0 +1,51 @@
+# macOS metadata, logs, caches, and dependency installs
+.DS_Store
+node_modules/
+__pycache__/
+*.pyc
+*.log
+*.sock
+*.backup
+*.backup.*
+*-backup.toml
+
+# Authentication and account state stay on each machine
+.env
+.env.*
+!.env.example
+.config/auth0/
+.config/op/
+.config/stripe/
+.config/sanity/
+.config/turso_cli/
+.config/gh/hosts.yml
+.config/raycast/config.json
+.config/raycast/aster-endpoint.json
+.config/raycast/ai/
+.config/raycast/extensions/
+.config/raycast/node-compile-cache/
+
+# Generated notifier state
+.config/configstore/
+.config/simple-update-notifier/
+.config/mole/
+
+# App settings and personal skills are the tracked AI-tool files
+.codex/*
+!.codex/config.toml
+!.codex/skills/
+.codex/skills/*
+!.codex/skills/hatch-pet/
+.claude/*
+!.claude/settings.json
+!.claude/skills/
+
+# Shell histories, compiled completions, and SSH key material
+.zsh_history*
+.zhistory*
+.bash_history*
+.zcompdump*
+.python_history
+.node_repl_history
+.ssh/*
+!.ssh/config
